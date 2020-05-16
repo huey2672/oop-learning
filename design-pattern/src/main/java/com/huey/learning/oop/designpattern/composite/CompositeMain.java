@@ -7,8 +7,8 @@ public class CompositeMain {
         Directory book = new Directory("BOOK");
         Directory computer = new Directory("COMPUTER");
         Directory fiction = new Directory("FICTION");
-        Directory nagicNovel = new Directory("Magic Novel");
-        File effectiveJava = new File("Effecitve Java.pdf");
+        Directory magicNovel = new Directory("Magic Novel");
+        File effectiveJava = new File("Effective Java.pdf");
         File introductionToAlgorithms = new File("Introduction to Algorithms.pdf");
         File oneHundredYearsOfSolitude = new File("One Hundred Years of Solitude.txt");
         File aSongOfIceAndFire = new File("A Song of Ice and Fire.epub");
@@ -18,10 +18,10 @@ public class CompositeMain {
         book.add(fiction);
         computer.add(introductionToAlgorithms);
         computer.add(effectiveJava);
-        fiction.add(nagicNovel);
+        fiction.add(magicNovel);
         fiction.add(oneHundredYearsOfSolitude);
-        nagicNovel.add(aSongOfIceAndFire);
-        nagicNovel.add(harryPotter);
+        magicNovel.add(aSongOfIceAndFire);
+        magicNovel.add(harryPotter);
 
         book.tree();
 //		fiction.ls();
