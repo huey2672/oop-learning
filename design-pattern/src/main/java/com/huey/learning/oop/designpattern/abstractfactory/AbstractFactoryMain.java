@@ -34,9 +34,9 @@ public class AbstractFactoryMain {
 			throw new IllegalArgumentException("Unknown Phone Factory.");
 		}
 		
-		// creates phone by phone factory
+		// creates a phone by phone factory
 		Phone phone = phoneFactory.createPhone(version, color);
-		// creates earphones by phone factory
+		// creates a pair of earphones by phone factory
 		Earphones earphones = phoneFactory.createEarphones(color);
 		// assembles the phone with earphones
 		phoneFactory.assemblePhone(phone, earphones);
