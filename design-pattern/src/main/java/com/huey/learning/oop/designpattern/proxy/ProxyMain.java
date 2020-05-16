@@ -10,7 +10,7 @@ public class ProxyMain {
 
         huey.buyMemberships();
         tencentNBAChannelForHuey.liveGame(Team.ROCKETS, Team.LAKERS);
-		
+
     }
 
 }
